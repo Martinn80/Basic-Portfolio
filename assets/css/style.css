@@ -1,0 +1,26 @@
+* {
+margin: 0;
+}
+
+nav {
+    height: 10vh;
+    background-color: gray;
+    font-family:font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav-link-container {
+    display: table;
+    float: right;
+    height: 10vh;
+    margin-right: 120px;
+    
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: gray;
+}
