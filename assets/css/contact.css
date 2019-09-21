@@ -2,39 +2,37 @@
 margin: 0;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 box-sizing: border-box;
-
-}
-
-
+    }
+    
 nav {
     background-color: #666666;
     font-family: 'Georgia', Times, Times New Roman, serif;
     display: table;
     width: 100%;
     border-bottom: 5px solid #4aaaa5;
-
+    
 }
-
+    
 .nav-link-container {
     display: table;
     float: right;
     height: 10vh;
     margin-right: 220px;
-    
+        
 }
-
+    
 .nav-link {
     display: table-cell;
     vertical-align: middle;
     text-decoration: none;
     color: #4aaaa5;
-
+    
 }
-
+    
 .nav-link:not(:last-child) {
     padding-right: 20px;
 }
-
+    
 .name {
     height: 10vh;
     color: #4aaaa5;
@@ -43,28 +41,35 @@ nav {
     padding: 20px;
     float: left;
     margin-left: 220px;
-
+    
 }
-
-
+    
+    
 .name, .nav-link {
     letter-spacing: 2px;
 }
-
-
+    
+main {
+    min-height: 80vh;
+    background-color: #dddddd;
+    position: relative;
+        
+}
+    
+    
 .img-background {
     height: 80vh;
     width: 100%;
     position: absolute;
 }
-
+    
 #horizontal-line {
     color: #777777;
     width: 100%;
     margin-bottom: 1%;
-    
+        
 }
-
+    
 .container {
     position: absolute;
     padding: 20px;
@@ -75,15 +80,14 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     
-
 }
-
+    
 .card-header {
     display: table;
     width: 100%;
     background-color: #ffffff;
 }
-
+    
 .card-header-text {
     display: table-cell;
     color: #4aaaa5;
@@ -91,50 +95,30 @@ nav {
     vertical-align: middle;
     text-align: center;
     padding: 25px;
-    
+        
 }
 
-.card-text {
-    padding: 0.5%;
-    clear: right;
-    overflow: visible;
-
-}
-
-main {
-    min-height: 80vh;
-    background-color: #dddddd;
-    position: relative;
-    
-}
-
-
-.float-img {
-    float: left;
-    padding-right: 10px;
+textarea {
     padding-top: 10px;
-    
 }
 
-p {
-    color: #777777;
-    letter-spacing: 1.0px;
-    line-height: 1.5rem; 
-    clear: right;
-    overflow: visible;
-    
+button {
+    background-color: #4aaaa5;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
 }
-
+    
 footer {
     height: 10vh;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-}
-
-
+}    
+    
 .copyright {
     color: beige;
     text-align: center;
     padding: 35px;
-
+    
 }
+    
